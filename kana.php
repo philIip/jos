@@ -1,6 +1,13 @@
 ﻿<?php
 include('header.php');
 ?>
-かな (Kana) <br>
-<a href="kana/hiragana.php">ひらがな (Hiragana)</a><br>
-<a href="kana/katakana.php">カタカナ (Katakana)</a>
+    <div class="main-text">
+	    <div class="container">
+        <p class="top-header header">
+          <span class="japanese-color">かな</span> (Kana)
+        </p> <br>
+        ひらがな (Hiragana) <br>
+        カタカナ (Katakana)
+    </div>
+  </body>
+</html>

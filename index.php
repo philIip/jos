@@ -1,12 +1,12 @@
 <?php
 include('header.php');
 ?>
-    <div id="main-text">
+    <div class="main-text">
 
-      <div id="body-paragraph">
-        <p id="main-header" class="header first-letter">
+      <div class="body-paragraph">
+        <h1 id="main-header" class="header first-letter">
           JAPANESE ONLINE SELF HELP UTILITY
-        </p>
+        </h1>
       </div>
 
       <div class="body-paragraph">
@@ -18,22 +18,22 @@ include('header.php');
       </div> 
 
       <div>
-        <p class="header">
+        <h1 class="header">
           BEFORE YOU START
-        </p>
+        </h1>
       </div>
 
       <div class="body-paragraph">
         <p class="body-text">
-          <a href="japanizing/jpn-ur_comp.html">Japanizing Your Computer</a>: Learn how to effectively use Japanese on your computer (Mac and PC), <br>to output Japanese, to add furigana, and to search for Kanji and Katakana words online<br>
+          <a href="japanizing/jpn-ur_comp.html">Japanizing Your Computer</a>: Learn how to effectively use Japanese on your computer (Mac and PC) <br>to output Japanese, add furigana, and search for Kanji and Katakana words online<br>
           <a href="japanizing/howto_typing_jpn.php">How to type in Japanese(365)</a>: Instructions and practice quiz
         </p>
       </div>
 
       <div>
-        <p class="header">
+        <h1 class="header">
           CONTACT
-        </p>
+        </h1>
       </div>
 
       <div class="body-paragraph">
