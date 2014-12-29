@@ -10,7 +10,7 @@
   <body>
     <div id="menu">
       <img id="joshu-logo" src="images/joshu-logo.png">
-  	  <nav >
+  	  <nav>
   	    <ul>
   	  	  <li>
   	  	    <a href="index.php">HOME</a>
