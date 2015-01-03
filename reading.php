@@ -1,13 +1,21 @@
 ﻿<?php
 include('header.php');
 ?>
-    <div class="main-text">
-	    <div class="container">
-        <p class="top-header header">
-          <span class="japanese-color">読み物</span> (Reading)
-        </p> <br>
-        ひらがな (Hiragana) <br>
-        カタカナ (Katakana)
+    <div class="body-text">
+
+      <header>
+        <h1 class="header first-letter">
+          <span class="first-letter">読み物</span> (Reading)
+        </h1>
+      </header>
+
+      <div>
+        <p>
+          ひらがな (Hiragana) <br>
+          カタカナ (Katakana)
+        </p>
+      </div>
+
     </div>
   </body>
 </html>
