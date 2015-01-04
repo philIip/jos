@@ -43,10 +43,10 @@
             <a href="links.php">LINKS</a>
           </li>
           <li>
-            <a href="links.php">TEXTBOOKS/REFERENCES</a>
+            <a href="textbooks.php">TEXTBOOKS/REFERENCES</a>
           </li>
           <li>
-            <a href="links.php">CREDITS</a>
+            <a href="credit.php">CREDITS</a>
           </li>
         </ul>
       </nav>
