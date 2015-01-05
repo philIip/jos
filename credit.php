@@ -5,15 +5,11 @@ include('header.php');
 
       <header>
         <h1 class="header first-letter">
-          <span class="first-letter">リンク</span> (Credits)
+          <span class="first-letter"></span> (Credits)
         </h1>
       </header>
 
       <div>
-        <p>
-          ひらがな (Hiragana) <br>
-          カタカナ (Katakana)
-        </p>
       </div>
 
     </div>

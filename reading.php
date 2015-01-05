@@ -10,10 +10,6 @@ include('header.php');
       </header>
 
       <div>
-        <p>
-          ひらがな (Hiragana) <br>
-          カタカナ (Katakana)
-        </p>
       </div>
 
     </div>

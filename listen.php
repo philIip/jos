@@ -10,10 +10,10 @@ include('header.php');
       </header>
 
       <div>
-        <p>
-          ひらがな (Hiragana) <br>
-          カタカナ (Katakana)
-        </p>
+        <h2>Oral Performance Exam practice videos</h2>
+        <h2>会話のれんしゅう</h2>
+        <h2>Listening</h2>
+        <h2>Questions and Answers</h2>
       </div>
 
     </div>

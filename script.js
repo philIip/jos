@@ -1,6 +1,22 @@
-// This will bold and change the color of the first letter of every word in the "Japanese Online Self-Help Utility"
+$(document).ready(function () {
+    var parentDivs = $('#nestedAccordion div'),
+        childDivs = $('#nestedAccordion h3').siblings('div');
 
-window.onload = function(){
-  var element = document.getElementById("main-header")
-  element.innerHTML = element.innerHTML.replace(/\b([a-z])([a-z]+)?\b/gim, "<span class='first-letter'>$1</span>$2")
-}
+    $('#nestedAccordion h2').click(function () {
+        parentDivs.slideUp();
+        if ($(this).next().is(':hidden')) {
+            $(this).next().slideDown();
+        } else {
+            $(this).next().slideUp();
+        }
+    });
+
+    $('#nestedAccordion h3').click(function () {
+        childDivs.slideUp();
+        if ($(this).next().is(':hidden')) {
+            $(this).next().slideDown();
+        } else {
+            $(this).next().slideUp();
+        }
+    });
+});
