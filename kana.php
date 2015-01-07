@@ -22,7 +22,7 @@ include('header.php');
               </ul>
             </div>
 
-          <h3>Hiragana flashcards with audio<!--: Set a speed (e.g., 0.5, 0.7, 1, 1.5, etc.).--></h3>
+          <h3>Hiragana flashcards w/ audio<!--: Set a speed (e.g., 0.5, 0.7, 1, 1.5, etc.).--></h3>
             <div>
               <ul>
                 <li>Hiragana: あ〜ん</li>
@@ -128,35 +128,55 @@ include('header.php');
           <h3>Katakana quizzes</h3>
           <div>
             <ul>
-              <li>250 Identifying Katakana (choose katakana characters from a list of similar katakana, kanji, and hiragana characters)</li>
-              <li>330 Identifying Katakana: ア〜ノ-- audio (listen and identify correct katakana character from a group of similar katakana characters)</li>
-              <li>331 Identifying Katakana: ハ〜ン-- audio (listen and identify correct katakana character from a group of similar katakana characters)</li>
-              <li>329 Identifying Katakana: ア〜ン-- audio (listen and identify correct katakana character from a group of similar katakana characters)</li>
-              <li>332 Identifying Katakana: キャ〜ピョ-- audio (listen and identify correct katakana character from a group of similar katakana characters)</li>
-              <li>336 Identifying Katakana: two-katakana words -- audio (listen and identify correctly spelled word from a group of two-katakana words)</li>
-              <li>337 Identifying Katakana: three-katakana words -- audio (listen and identify correctly spelled word from a group of three-katakana words)</li>
-              <li>351 Typing Katakana: three-katakana words -- audio (listen and type three-katakana words)</li>
-              <li>338 Identifying Katakana: four-katakana words -- audio (listen and identify correctly spelled word from a group of four-katakana words)</li>
-              <li>352 Identifying Katakana words: audio (listen and identify correctly spelled word from a group of katakana words)</li><br>
-              <li>253 Identifying katakana words (sentence)</li>
-              <li>251 Identifying and translating katakana word(sentence)</li>
-              <li>254 Identifying and translating abbreviated katakana words (sentence)</li>
-              <li>257 Computer-related katakana words 1 (translating katakana words into English)</li>
-              <li>258 Computer-related katakana words 2 (translating katakana words into English)</li>
-              <li>339 Texas Cities (Rewrite the katakana names of Texas cities in English)</li>
-              <li>340 U.S. States (1) (Rewrite the katakana names of the states in English.)</li>
-              <li>341 U.S. States (2) (Rewrite the katakana names of the states in English.)</li>
-              <li>366 Countries (Rewrite the katakana names of the countries in English.)</li><br>
-              <li>Katakana Writing Practice ア〜ン (pdf)   |  こたえ   | -- new (1/2014)</li>
-              <li>Katakana Writing Practice ア〜ポ (pdf)   |  こたえ  | -- new (1/2014)</li>
-              <li>Katakana Writing Practice ア〜ヴォ (pdf)   |  こたえ  | -- new (1/2014)</li><br>
-              <li>333 JPN601D Katakana Practice (audio): listen and choose the correct katakana words</li>
-              <li>335 JPN601D Katakana list -- Practice #1 (translating katakana words into English)</li>
-              <li>334 JPN601D Katakana list -- Practice #2 (Typing English words in katakana)</li>
-              <li>JPN601D Katakana list -- Practice #3 (katakana writing practice: PDF file)</li>
-              <li>JPN601D Katakana list -- Practice (katakana writing practice: PDF file)</li>
-              <li>JPN610D Katakana list -- Practice (katakana writing practice: PDF file)</li>
-              <li>kana vertical and horizontal writing practice (PDF file)</li>
+              Identifying correct katakana characters or words:
+              <li>250 From similar kana and kanji characters</li>
+              <li>330 audio</li>
+              <li>331 audio</li>
+              <li>329 audio</li>
+              <li>332 audio</li>
+              <li>336 Two-katakana words | audio</li>
+              <li>337 Three-katakana words | audio</li>
+              <li>338 Four-katakana words | audio</li>
+              <li>352 Katakana words | audio</li>
+              <li>253 In sentences</li>
+            </ul>
+
+            <ul>
+              Listen and type - audio
+              <li>351 Three-katakana words</li>
+            </ul>
+
+            <ul>
+              Translating katakana words into English
+              <li>251 In sente</li>
+              <li>254 Abbreviated Words</li>
+              <li>257 Computer-related (1)</li>
+              <li>258 Computer-related (2)</li>
+              <li>339 Texas Cities</li>
+              <li>340 US States (1)</li>
+              <li>341 US States (2)</li>
+              <li>366 Countries</li>
+            </ul>
+
+            <ul>
+              Katakana writing practice
+              <li>Practice 1: pdf | answer key</li>
+              <li>Practice 2: pdf | answer key</li>
+              <li>Practice 3: pdf | answer key</li>
+            </ul>
+
+            <ul>
+              JPN601D practice (Katakana list)
+              <li>333 Katakana Words: Audio</li>
+              <li>335 Katakana to English</li>
+              <li>334 English to Katakana</li>
+              <li>Writing Practice: English to Katakana</li>
+              <li>Trace and Practive</li>
+            </ul>
+
+            <ul>
+              <li>JPN610D Katakana list: Trace and Practice (pdf)</li>
+              <li>Kana Vertical and Horizontal: Trace and Practice</li>
             </ul>
           </div>
 
