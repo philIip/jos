@@ -46,7 +46,7 @@
             <a href="links.php">LINKS</a>
           </li>
           <li>
-            <a href="textbooks.php">TEXTBOOKS/REFERENCES</a>
+            <a href="textbooks.php">REFERENCES</a>
           </li>
           <li>
             <a href="credit.php">CREDITS</a>

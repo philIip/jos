@@ -34,12 +34,16 @@ include('header.php');
       <div>
         <h2>Contact</h2>
         <div>
-          <ul id="contact">
+          <!--<ul id="contact">
             <li><a href="http://www.laits.utexas.edu/japanese/index.php">UT Austin Japanese Program</a></li>
             <li>水藤直子 (Naoko Suito) n.suito@austin.utexas.edu</li>
             <li>University of Texas at Austin</li>
             <li><img src="images/UTJPNlogo.png"></li>
-          </ul>
+          </ul>-->
+          <p><a href="http://www.laits.utexas.edu/japanese/index.php">UT Austin Japanese Program</a><br>
+            水藤直子 (Naoko Suito) n.suito@austin.utexas.edu<br>
+            University of Texas at Austin<br>
+            <img src="images/UTJPNlogo.png"></p>
         </div>
       </div>	
 
