@@ -34,9 +34,9 @@ include('header.php');
           <h3>Hiragana Practice sheets <!--(pdf files) : print out, look at the stroke order, and practice -- Trace the example hiragana first, then write your hiragana nicely in the blank square.--></h3>
             <div>  
               <ul>
-                <li>Large:　 あ〜と；　 な〜よ；　 ら〜ん；　 が〜ど；　 ば〜ぽ；　 きゃ〜みょ；　 りゃ〜ぴょ</li>
-                <li>Medium:　 あ〜の；　 は〜ん；　 が〜ぽ；　 きゃ〜ぴょ</li>
-                <li>Small:　 あ〜ん (practice 3 times)；　 あ〜ぽ (practice 2 times)；　 が〜ぴょ</li>
+                <li>Large: あ〜と | な〜よ | ら〜ん | が〜ど | ば〜ぽ | きゃ〜みょ | りゃ〜ぴょ</li>
+                <li>Medium: あ〜の | は〜ん | が〜ぽ | きゃ〜ぴょ</li>
+                <li>Small: あ〜ん (practice 3 times) | あ〜ぽ (practice 2 times) | が〜ぴょ</li>
                 <li>Hiragana practice sheet (blank)</li>
               </ul>
             </div>
@@ -88,12 +88,12 @@ include('header.php');
             <ul>
               <li>Stroke orders, audio for each character, and written and audio examples of katakana words</li>
                 <ul>
-                  <li>Table-1 (Monographs) ア〜ン</li>
-                  <li>Table-2 (Diacritics) ガ〜ボ</li>
-                  <li>Table-3 (Digraphs with/without diacritics) キャ〜ピョ</li>
-                  <li>Table-4 (Modern digraph additions with diacritics) イェ〜ヴォ</li>
+                  <li>Table-1 (Monographs): ア〜ン</li>
+                  <li>Table-2 (Diacritics): ガ〜ボ</li>
+                  <li>Table-3 (Digraphs with/without diacritics): キャ〜ピョ</li>
+                  <li>Table-4 (Modern digraph additions with diacritics): イェ〜ヴォ</li>
                 </ul>
-              <li>English Alphabet -> Katakana: possible katakana characters corresponding to each alphabet letter with example katakana words.</li>
+              <li>English Alphabet to Katakana: Possible katakana characters corresponding to each alphabet letter with example katakana words.</li>
               <li>Katakana Names: Non-Japanese Personal and family names in katakana.</li>
             </ul>
           </div>
@@ -101,27 +101,28 @@ include('header.php');
           <h3>Katakana flashcards<!--: Set a speed (e.g., 0.5, 0.7, 1, 1.5, etc.).--></h3>
           <div>
             <ul>
-              <li>Katakana: ア〜ン (katakana and audio)</li>
-              <li>Katakana：ア〜ン、ガ〜ポ (katakana and audio)</li>
-              <li>Katakana：ア〜ン、ガ〜ポ (katakana, hirakana, and roomaji)</li>
-              <li>Katakana：ガ〜ポ、キャ〜ピョ (katakana and audio)</li>
-              <li>Katakana：ガ〜ポ、キャ〜ピョ (katakana, hirakana, and roomaji)</li>
-              <li>Katakana：Two-Katakana words (katakana and audio)</li>
-              <li>Katakana：Three-Katakana words (katakana and audio)</li>
-              <li>Katakana：Four-Katakana words (katakana and audio)</li>
-              <li>Katakana：Five-Katakana words (katakana and audio)</li>
-              <li>Katakana：Six-Katakana words (katakana and audio)</li>
-              <li>JPN601D Katakana list (katakana and audio)</li>
+              <li>ア〜ン (audio)</li>
+              <li>ア〜ン、ガ〜ポ (audio)</li>
+              <li>ア〜ン、ガ〜ポ (hirakana, roomaji)</li>
+              <li>ガ〜ポ、キャ〜ピョ (audio)</li>
+              <li>ガ〜ポ、キャ〜ピョ (hirakana, roomaji)</li>
+              <li>Two-Katakana words (audio)</li>
+              <li>Three-Katakana words (audio)</li>
+              <li>Four-Katakana words (audio)</li>
+              <li>Five-Katakana words (audio)</li>
+              <li>Six-Katakana words (audio)</li>
+              <li>JPN601D Katakana list (audio)</li>
             </ul>
           </div>
 
-          <h3>Practice sheets<!-- (pdf files) : print out, look at the stroke order, and practice -- Trace the example katakana first, then write your katakana nicely in the blank square--></h3>
+          <h3>Practice sheets</h3>
           <div>
             <ul>
-              <li>Large:  ア〜ト； 　 ナ〜ヨ；　 ラ〜ン；　 ガ〜ド；　 バ〜ポ；　 キャ〜ミョ；　 リャ〜ピョ</li>
-              <li>Medium:  ア〜ノ； 　 ハ〜ン；　 ガ〜ポ；　　 キャ〜ピョ</li>
-              <li>Small:  ア〜ン (practice 3 times)； 　 ア〜ポ (practice 2 times)；　 ガ〜ピョ</li>
-              <li>Kana practice sheet (blank)　</li>
+              <center>Print out, look at the stroke order, and practice. Trace the example katakana first, then write your katakana nicely in the blank square.</center><br>
+              <li>Large: ア〜ト | ナ〜ヨ | ラ〜ン | ガ〜ド | バ〜ポ | キャ〜ミョ | リャ〜ピョ</li>
+              <li>Medium: ア〜ノ | ハ〜ン | ガ〜ポ | キャ〜ピョ</li>
+              <li>Small: ア〜ン (practice 3 times) | ア〜ポ (practice 2 times) | ガ〜ピョ</li>
+              <li>Kana practice sheet (blank)</li>
             </ul>
           </div>
 
@@ -129,53 +130,53 @@ include('header.php');
           <div>
             <ul>
               Identifying correct katakana characters or words:
-              <li>250 From similar kana and kanji characters</li>
-              <li>330 audio</li>
-              <li>331 audio</li>
-              <li>329 audio</li>
-              <li>332 audio</li>
-              <li>336 Two-katakana words | audio</li>
-              <li>337 Three-katakana words | audio</li>
-              <li>338 Four-katakana words | audio</li>
-              <li>352 Katakana words | audio</li>
-              <li>253 In sentences</li>
+              <li><a href="kana/katakana/kata_q/250.php">250</a> From similar kana and kanji characters</li>
+              <li><a href="kana/katakana/kata_q/330.php">330</a> (audio)</li>
+              <li><a href="kana/katakana/kata_q/331.php">331</a> (audio)</li>
+              <li><a href="kana/katakana/kata_q/329.php">329</a> (audio)</li>
+              <li><a href="kana/katakana/kata_q/332.php">332</a> (audio)</li>
+              <li><a href="kana/katakana/kata_q/336.php">336</a> Two-katakana words (audio)</li>
+              <li><a href="kana/katakana/kata_q/337.php">337</a> Three-katakana words (audio)</li>
+              <li><a href="kana/katakana/kata_q/338.php">338</a> Four-katakana words (audio)</li>
+              <li><a href="kana/katakana/kata_q/352.php">352</a> Katakana words (audio)</li>
+              <li><a href="kana/katakana/kata_q/253.php">253</a> In sentences</li>
             </ul>
 
             <ul>
               Listen and type - audio
-              <li>351 Three-katakana words</li>
+              <li><a href="kana/katakana/kata_q/351.php">351</a> Three-katakana words</li>
             </ul>
 
             <ul>
               Translating katakana words into English
-              <li>251 In sente</li>
-              <li>254 Abbreviated Words</li>
-              <li>257 Computer-related (1)</li>
-              <li>258 Computer-related (2)</li>
-              <li>339 Texas Cities</li>
-              <li>340 US States (1)</li>
-              <li>341 US States (2)</li>
-              <li>366 Countries</li>
+              <li><a href="kana/katakana/kata_q/251.php">251</a> In sentences</li>
+              <li><a href="kana/katakana/kata_q/254.php">254</a> Abbreviated Words</li>
+              <li><a href="kana/katakana/kata_q/257.php">257</a> Computer-related (1)</li>
+              <li><a href="kana/katakana/kata_q/258.php">258</a> Computer-related (2)</li>
+              <li><a href="kana/katakana/kata_q/339.php">339</a> Texas Cities</li>
+              <li><a href="kana/katakana/kata_q/340.php">340</a> US States (1)</li>
+              <li><a href="kana/katakana/kata_q/341.php">341</a> US States (2)</li>
+              <li><a href="kana/katakana/kata_q/366.php">366</a> Countries</li>
             </ul>
 
             <ul>
               Katakana writing practice
-              <li>Practice 1: pdf | answer key</li>
-              <li>Practice 2: pdf | answer key</li>
-              <li>Practice 3: pdf | answer key</li>
+              <li>Practice 1 (pdf) | <a href="kana/katakana/kata_q/prac1_answer.php">answer key</a></li>
+              <li>Practice 2 (pdf) | <a href="kana/katakana/kata_q/prac2_answer.php">answer key</a></li>
+              <li>Practice 3 (pdf) | <a href="kana/katakana/kata_q/prac3_answer.php">answer key</a></li>
             </ul>
 
             <ul>
               JPN601D practice (Katakana list)
-              <li>333 Katakana Words: Audio</li>
-              <li>335 Katakana to English</li>
-              <li>334 English to Katakana</li>
+              <li><a href="kana/katakana/kata_q/333.php">333</a> Katakana Words: Audio</li>
+              <li><a href="kana/katakana/kata_q/335.php">335</a> Katakana to English</li>
+              <li><a href="kana/katakana/kata_q/334.php">334</a> English to Katakana</li>
               <li>Writing Practice: English to Katakana</li>
-              <li>Trace and Practive</li>
+              <li>Trace and Practice</li>
             </ul>
 
             <ul>
-              <li>JPN610D Katakana list: Trace and Practice (pdf)</li>
+              <li>JPN610D Katakana List: Trace and Practice (pdf)</li>
               <li>Kana Vertical and Horizontal: Trace and Practice</li>
             </ul>
           </div>

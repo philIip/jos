@@ -13,6 +13,7 @@ header h1 {
   font-weight: normal;
   margin: 0em;
   text-align: center;
+  padding-top: 70px;
 }
 
 h1 .first-letter {
@@ -133,15 +134,34 @@ ul {
   text-align: center
 }
 
-@media only screen and (max-width: 1000px) {
-  p {
-    width: 90%;
-  }
+#nav-trigger {
+  display: none;
+  width: 100%;
+  text-align: right;
 }
 
 @media only screen and (max-width: 1100px) {
-  nav ul li {
+  nav#menu {
     display: none;
+  }
+
+  #nav-trigger {
+    display: block;
+    position: fixed;
+    background-color: #ffb5c6;
+  }
+
+  #nav-trigger span img {
+    cursor: pointer;
+  }
+
+  nav#nav-mobile {
+    display: block; }
+}
+
+@media only screen and (max-width: 1000px) {
+  p {
+    width: 90%;
   }
 }
 

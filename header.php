@@ -11,9 +11,9 @@
     <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
-    <div id="menu">
+    <div>
       <img id="joshu-logo" src="images/joshu-logo.png">
-  	  <nav>
+  	  <nav id="menu">
   	    <ul>
   	  	  <li>
   	  	    <a href="index.php">HOME</a>
@@ -53,5 +53,7 @@
           </li>
         </ul>
       </nav>
-    </div>
-    <div id="filler"></div>
+      <div id="nav-trigger">
+        <span><img src="images/mobile-menu.png"></span>
+      </div>
+      <nav id="nav-mobile"></nav>
