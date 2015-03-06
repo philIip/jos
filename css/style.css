@@ -32,6 +32,11 @@ h2 {
   text-transform: uppercase;
   width: 100%;
   text-align: center;
+  cursor: pointer;
+}
+
+.no-pointer {
+  cursor: auto;
 }
 
 h3 {
@@ -45,6 +50,7 @@ h3 {
   text-transform: uppercase;
   width: 100%;
   text-align: center;
+  cursor: pointer;
 }
 
 a:link {
@@ -62,7 +68,7 @@ a:active {
   color: #63714d;
 }
 
-nav ul {
+nav#menu ul {
   font-family: 'Open Sans Condensed', sans-serif;
   margin: 0;
   padding: 1.2em 0em 1.2em 0em;
@@ -75,7 +81,7 @@ nav ul {
   height: 1.45em;
 }
 
-nav li {
+nav#menu li {
   display: inline;
   padding: 1.2em .5em;
 }
@@ -94,21 +100,25 @@ div {
   background-color: #f6e5c0;
 }
 
-#nestedAccordion div {
+#nestedAccordion > div {
+  display: none;
+}
+
+h3 + div {
   display: none;
 }
 
 p {
   font-size: 1.2em;
   margin: 0em auto;
-  padding: 1em 0em 1em 0em;
   max-width: 960px;
+  text-align: center;
 }
 
-ul {
-  margin-left: auto;
-  margin-right: auto;
-  width: 650px;
+.quizzes {
+  display: table;
+  margin: 0 auto;
+  padding-bottom: 1em;
 }
 
 #contact {
@@ -131,13 +141,62 @@ ul {
 }
 
 .body-text {
-  text-align: center
+  text-align: center;
 }
 
 #nav-trigger {
   display: none;
   width: 100%;
   text-align: right;
+}
+
+.two-column {
+  display: inline-block;
+  width: 350px;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  width: 710px;
+}
+
+#nav-trigger span img {
+  padding-right: 27px;
+}
+
+#nestedAccordion div div p:first-child {
+  padding: 1em 0em .5em 0em;
+}
+
+#nestedAccordion div div p {
+  padding: 0em 0em .5em 0em;
+}
+
+.description {
+  padding: .5em 0em .5em 0em;
+}
+
+nav#nav-mobile {
+  position: relative;
+  display: none;
+}
+
+nav#nav-mobile ul {
+  position: absolute;
+  right: 0;
+  display: none;
+  list-style-type: none;
+  width: 125px;
+  text-align: center;
+  margin-top: 68px;
+  padding: 0;
+}
+
+nav#nav-mobile li {
+  background-color: #ffb5c6;
+  padding: 10px 0px;
+  width: 125px;
 }
 
 @media only screen and (max-width: 1100px) {
