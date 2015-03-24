@@ -1,7 +1,7 @@
 ﻿<?php
 include('header.php');
 ?>
-    <div class="body-text">
+    <div>
 
       <header>
         <h1 class="header first-letter">
@@ -9,7 +9,14 @@ include('header.php');
         </h1>
       </header>
 
-      <div>
+      <div id="nestedAccordion">
+        <h2></h2>
+        <div>
+        </div>
+
+        <h2></h2>
+        <div>
+        </div>
       </div>
 
     </div>

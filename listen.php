@@ -5,7 +5,7 @@ include('header.php');
 
       <header>
         <h1 class="header first-letter">
-          <span class="first-letter">リスニング</span> (Listening) <br> <span class="first-letter">と スピーキング</span> (Speaking)
+          <span class="first-letter">聞く／話す練習</span> (Listening/Speaking)
         </h1>
       </header>
 

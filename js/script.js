@@ -21,6 +21,8 @@ $(document).ready(function () {
             $(this).next().slideUp();
         }
     });
+
+    $("h2:first-child").trigger("click");
 });
 
 $(document).ready(function() {

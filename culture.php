@@ -1,7 +1,7 @@
 ﻿<?php
 include('header.php');
 ?>
-    <div class="body-text">
+    <div>
 
       <header>
         <h1 class="header first-letter">
@@ -9,21 +9,21 @@ include('header.php');
         </h1>
       </header>
 
-      <div id="accordion">
+      <div id="nestedAccordion">
         <h2>UT Students' Eye View of Japan</h2>
         <div>
-          <ul>
-            <li>街角で（まちがどで: People on the streets)</li>
-            <li>行事（ぎょうじ: events/celebrations)</li>
-            <li>文化と習慣（ぶんかとしゅうかん: Culture and Customs)</li>
-            <li>スポーツ、ゲーム(Sports)</li>
-            <li>自然と風景（しぜんとふうけい: nature and scenery)</li>
-            <li>旅行と交通機関（(りょこうとこうつうきかん： travel and transportation)</li>
-            <li>食べ物と食べ方（たべものとたべかた: Food and eating manner)</li>
-            <li>日本語 (にほんご: Japanese Lanugage)</li>
-            <li>音楽、芸術、文学 (おんがく、げいじゅつ、ぶんがく: Music、Arts, Literature)</li>
-            <li>ポップカルチャーとファッション (Pop Culture and Fashion)</li>
-            <li>宗教、歴史（しゅうきょう、れきし: religions, history</li>
+          <ul class="content">
+            <li><a href="culture/culture_streets.php">街角で (まちがどで)</a>: People on the streets</li>
+            <li><a href="culture/culture_events.php">行事（ぎょうじ)</a>: Events and Celebrations</li>
+            <li><a href="culture/culture_customs.php">文化と習慣 / ぶんかとしゅうかん</a>: Culture and Customs</li>
+            <li><a href="culture/culture_sports.php">スポーツ、ゲーム</a>: Sports</li>
+            <li><a href="culture/culture_nature.php">自然と風景 / しぜんとふうけい</a>: Nature and Scenery</li>
+            <li><a href="culture/culture_travel.php">旅行と交通機関 (りょこうとこうつうきかん)</a>： Travel and Transportation</li>
+            <li><a href="culture/culture_food.php">食べ物と食べ方 (たべものとたべかた)</a>: Food and Table Manners</li>
+            <li><a href="culture/culture_language.php">日本語 / にほんご</a>: Japanese Language</li>
+            <li><a href="culture/culture_music.php">音楽、芸術、文学 (おんがく、げいじゅつ、ぶんがく)</a>: Music, Arts, and Literature</li>
+            <li><a href="culture/culture_popculture.php">ポップカルチャーとファッション</a>: Pop Culture and Fashion</li>
+            <li><a href="culture/culture_religions.php">宗教、歴史しゅうきょう、れきし</a>: Religions and History</a></li>
           </ul>
         </div>
       </div>

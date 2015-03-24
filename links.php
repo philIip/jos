@@ -1,7 +1,7 @@
 <?php
 include('header.php');
 ?>
-    <div class="body-text">
+    <div>
 
       <header>
         <h1 class="header first-letter">
@@ -9,48 +9,81 @@ include('header.php');
         </h1>
       </header>
 
-      <div id="accordion">
+      <div id="nestedAccordion">
         <h2>Japanizing Your Computer</h2>
         <div>
-          <ul>
-            <li>Japanizing Your Computer -- instruction and video: How to set up your windows/Mac's internet browsers</li>
-            <li>Windows Japanese Language Help Video (prepared by A. Young)</li>
-            <li>Windows Japanese Input and Shortcut (prepared by Mark Rogoyski)</li>
-            <li>How to type in Japanese (instruction and practice quiz) and video</li>
-            <li>Mac: How to add Furigana (MSWord)</li>
-            <li>Windows: How to add Furigana (MSWord) (prepared by L. Yang)</li>
-            <li>How to...: serching for Kanji and Katakana online (instruction and practice) (pdf)</li>
+          <ul class="content">
+            <li><a href="japanizing/jpn-ur_comp.html">How to set up your Windows/Mac internet browsers</a> (instructions and video)</li>
+            <li><a href="japanizing/japanizing_Windows_XP_ayoung.mov">For Windows: Japanese Language Help Video</a> (prepared by A. Young)</li>
+            <li><a href="japanizing/windows_langinput.html">For Windows: Japanese Input and Shortcut</a> (prepared by Mark Rogoyski)</li>
+            <li><a href="japanizing/howto_typing_jpn.php">How to type in Japanese</a> (video instructions and practice quiz)</li>
+            <li><a href="japanizing/mac_msword_howto_furigana.html">For Mac: How to add Furigana using MS Word</a></li>
+            <li><a href="japanizing/pc_msword_howto_furigana.html">For Windows: How to add Furigana using MS Word</a> (prepared by L. Yang)</li>
+            <li><a href="japanizing/pc_msword_howto_furigana.html">How to search in Kanji and Katakana online</a> (instructions and practice)</li>
           </ul>
         </div>
 
-        <h2>Formatted papers for learning Japanese and "How to" directions</h2>
+        <h2>Formatted papers Japanese and "How to" directions</h2>
         <div>
-          <ul>
-            <li>原稿用紙 (げんこうようし：Sakubun formatted paper)</li>
-            <li>"How to" directions</li>
-            <li>かな、漢字練習用紙 (かな、かんじれんしゅうようし：Kana and Kanji practice formatted paper)</li>
-          </ul>
+          <h3>Sakubun formatted paper</h3>
+           <div>
+            <ul class="content">
+              <li><a href="forms_howto/genkooyooshi.pdf">PDF format</a>: 400 (20X20)</li>
+              <li><a href="forms_howto/genkooyooshi_half.pdf">PDF format</a>: 200 (20X10 1/2 page)</li>
+            </ul>
+           </div>
+          <h3>"How to" directions</h3>
+            <div>
+              <ul class="content">
+                <li><a href="">How to use 原稿用紙</a>: げんこうようし</li>
+                <li><a href="">ワープロフォーマット</a> (よこがき: horizontal)</li>
+                <li><a href="">ワープロフォーマット</a> (たてがき: vertical)</li>
+              </ul>
+            </div>
+          <h3>Kana and Kanji practice formatted paper</h3>
+            <div>
+              <ul class="content">
+                <li>Kanji, reading, and meaning practice</li>
+                <li>Kanji and reading practice (small)</li>
+                <li>Kanji and reading practice (large)</li>
+                <li>Kana and Kanji practice sheet (the page without spaces for furigana)</li>
+              </ul>
+            </div>
         </div>
 
-        <h2>Language Links</h2>
+        <h2>Language</h2>
         <div>
-          <ul>
-            <li>Useful sites for Japanese Language Proficiency Test</li>
-            <li>General</li>
-            <li>Japanese-English Dictionaries</li>
-            <li>Kana</li>
-            <li>Kanji</li>
-            <li>Grammar</li>
-            <li>Vocabulary</li>
-            <li>Reading Materials</li>
-            <li>Listening Materials</li>
-            <li>Etc.</li>
-          </ul>
+          <h3>Useful sites for Japanese Language Proficiency Test</h3>
+          <div>
+            <ul class="content">
+              <li><a href="http://www.jflalc.org/jlpt.html">JLPT information: Japan Foundation</a></li>
+              <li><a href="http://www.yookoso.com/">JLPT Kanji a Day</a></li>
+              <li><a href="http://quizlet.com/subject/jlpt/">Quizlet: JPLT flashcards</a></li>
+            </ul>
+          </div>
+
+          <h3>General</h3>
+          <div>
+            <ul class="content">
+              <li><a href="">How to use 原稿用紙</a>: げんこうようし</li>
+              <li><a href="">ワープロフォーマット</a> (よこがき: horizontal)</li>
+              <li><a href="">ワープロフォーマット</a> (たてがき: vertical)</li>
+            </ul>
+          </div>
+
+          <h3>Japanese-English Dictionaries</h3>
+          <h3>Kana</h3>
+          <h3>Kanji</h3>
+          <h3>Grammar</h3>
+          <h3>Vocabulary</h3>
+          <h3>Reading Materials</h3>
+          <h3>Listening Materials</h3>
+          <h3>Etc.</h3>
         </div>
 
-        <h2>Culture Links</h2>
+        <h2>Culture</h2>
         <div>
-          <ul>
+          <ul class="content">
             <li>Cultural Interviews with Japanese-Speaking Executives -- discussion of cultural issues that are of interest to North Americans..." (video)</li>
             <li>Japan Video Topics : a comprehensive view of Japanese culture, nature, science and technology, and tourism etc.</li>
             <li>エリンが挑戦！にほんごできます。 : Japan Foundation</li>
@@ -68,9 +101,9 @@ include('header.php');
           </ul>
         </div>
 
-        <h2>Radio/News Links</h2>
+        <h2>Radio/News</h2>
         <div>
-          <ul>
+          <ul class="content">
             <li>Japan News</li>
             <li>CNN Japan</li>
             <li>Asahi Shimbun</li>
@@ -89,10 +122,10 @@ include('header.php');
           </ul>
         </div>
 
-        <h2>Travel Links</h2>
-        <h2>Fun Fun Fun Links</h2>
-        <h2>For Teachers Links</h2>
-        <h2>Miscellaneous Links (scholarships, internships, jobs, etc)</h2>
+        <h2>Travel</h2>
+        <h2>Fun Fun Fun</h2>
+        <h2>For Teachers</h2>
+        <h2>Miscellaneous (scholarships, internships, jobs, etc)</h2>
         <h2>JOSHU Utilities</h2>
       </div>
 

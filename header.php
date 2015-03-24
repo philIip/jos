@@ -2,7 +2,7 @@
 <html>
   <head>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
@@ -33,19 +33,19 @@
             <a href="counters.php">COUNTERS</a>
           </li>
           <li>
-            <a href="reading.php">READING</a>
+            <a href="listen.php">LISTENING/SPEAKING</a>
           </li>
           <li>
-            <a href="listen.php">LISTEN/SPEAK</a>
+            <a href="reading.php">READING</a>
           </li>
           <li>
             <a href="culture.php">CULTURE</a>
           </li>
           <li>
-            <a href="links.php">LINKS</a>
+            <a href="references.php">REFERENCES</a>
           </li>
           <li>
-            <a href="textbooks.php">REFERENCES</a>
+            <a href="links.php">LINKS</a>
           </li>
           <li>
             <a href="credit.php">CREDITS</a>
