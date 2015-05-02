@@ -35,6 +35,26 @@ h2 {
   cursor: pointer;
 }
 
+.about {
+  font-size: 13px;
+}
+
+.quiz-header {
+  background-color: #e9d2a0;
+  color: #63714d;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  margin: 0em;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+
+.padding-top {
+  padding-top: 70px;
+}
+
 .no-pointer {
   cursor: auto;
 }
@@ -112,7 +132,7 @@ h3 + div {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 16px;
   margin: 0em auto;
   max-width: 960px;
   text-align: center;
@@ -147,6 +167,10 @@ p {
   text-align: center;
 }
 
+.check {
+  padding-top: 1em;
+}
+
 #nav-trigger {
   display: none;
   width: 100%;
@@ -171,6 +195,24 @@ p {
   padding-bottom: 1em;
 }
 
+.quiz {
+  text-align: center;
+  padding: 1em 0em;
+}
+
+form > div {
+  padding: 10px 0px;
+}
+
+.symbols {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.checking {
+  padding-top: 1em;
+}
+
 #nav-trigger span img {
   padding-right: 27px;
 }
@@ -184,7 +226,11 @@ p {
 }
 
 .description {
-  padding: .5em 0em .5em 0em;
+  padding: 1em 0em 1em 0em;
+}
+
+.about p:first-child {
+  padding-top: 1em
 }
 
 nav#nav-mobile {

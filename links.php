@@ -1,5 +1,5 @@
 <?php
-include('header.php');
+include($_SERVER['DOCUMENT_ROOT'] . "/japanese/header.php");
 ?>
     <div>
 
@@ -23,7 +23,7 @@ include('header.php');
           </ul>
         </div>
 
-        <h2>Formatted papers Japanese and "How to" directions</h2>
+        <h2>Formatted papers and "How to" directions</h2>
         <div>
           <h3>Sakubun formatted paper</h3>
            <div>

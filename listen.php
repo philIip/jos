@@ -1,11 +1,11 @@
 <?php
-include('header.php');
+include($_SERVER['DOCUMENT_ROOT'] . "/japanese/header.php");
 ?>
     <div class="body-text">
 
       <header>
         <h1 class="header first-letter">
-          <span class="first-letter">聞く／話す練習</span> (Listening/Speaking)
+          <span class="first-letter">聞く/話す練習</span> (Listening/Speaking)
         </h1>
       </header>
 

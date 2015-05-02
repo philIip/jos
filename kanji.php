@@ -1,5 +1,5 @@
 ﻿<?php
-include('header.php');
+include($_SERVER['DOCUMENT_ROOT'] . "/japanese/header.php");
 ?>
     <div class="body-text">
 

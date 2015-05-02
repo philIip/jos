@@ -1,5 +1,5 @@
 ﻿<?php
-include('header.php');
+include($_SERVER['DOCUMENT_ROOT'] . "/japanese/header.php");
 ?>
     <div>
 
@@ -10,11 +10,11 @@ include('header.php');
       </header>
 
       <div id="nestedAccordion">
-        <h2></h2>
+        <h2>Literature</h2>
         <div>
         </div>
 
-        <h2></h2>
+        <h2>Student-written stories</h2>
         <div>
         </div>
       </div>
